@@ -20,10 +20,10 @@ public class authentication {
 		System.out.println("Response is: " + statusCode);
 	}
 
-	@Test
-	public void bearerAuthentications() {
+//	@Test
+//	public void bearerAuthentications() {
 //		Response response = authEndPoints.retrieveUsingBearerToken();
 //		int statusCode = response.statusCode();
 //		System.out.println("Response is: " + statusCode);
-	}
+//	}
 }
