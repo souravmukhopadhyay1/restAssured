@@ -33,7 +33,7 @@ public class authEndPoints {
 	}
 	
 	public static Response retrieveUsingBearerToken() {
-		String bearer_token = "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";
+		//String bearer_token = "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";
 		
 		Response response = given()
 								.header("authorization", "bearer " + bearer_token)
