@@ -2,20 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-28T17:08:31 IST" name="Default suite" finished-at="2025-06-28T17:08:41 IST" duration-ms="9843">
+  <suite started-at="2025-06-29T21:10:37 IST" name="Default suite" finished-at="2025-06-29T21:10:43 IST" duration-ms="6230">
     <groups>
     </groups>
-    <test started-at="2025-06-28T17:08:31 IST" name="Default test" finished-at="2025-06-28T17:08:41 IST" duration-ms="9843">
-      <class name="api.testcases.CreatePetDetails">
-        <test-method is-config="true" signature="createData()[pri:0, instance:api.testcases.CreatePetDetails@544fa968]" started-at="2025-06-28T17:08:31 IST" name="createData" finished-at="2025-06-28T17:08:31 IST" duration-ms="16" status="PASS">
+    <test started-at="2025-06-29T21:10:37 IST" name="Default test" finished-at="2025-06-29T21:10:43 IST" duration-ms="6230">
+      <class name="api.testcases.authentication">
+        <test-method signature="bearerAuthentications()[pri:0, instance:api.testcases.authentication@6e20b53a]" started-at="2025-06-29T21:10:37 IST" name="bearerAuthentications" finished-at="2025-06-29T21:10:43 IST" duration-ms="6100" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createData -->
-        <test-method signature="getPetsByStatus()[pri:4, instance:api.testcases.CreatePetDetails@544fa968]" started-at="2025-06-28T17:08:31 IST" name="getPetsByStatus" finished-at="2025-06-28T17:08:41 IST" duration-ms="9755" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getPetsByStatus -->
-      </class> <!-- api.testcases.CreatePetDetails -->
+        </test-method> <!-- bearerAuthentications -->
+      </class> <!-- api.testcases.authentication -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
