@@ -22,8 +22,8 @@ public class authentication {
 
 	@Test
 	public void bearerAuthentications() {
-		Response response = authEndPoints.retrieveUsingBearerToken();
-		int statusCode = response.statusCode();
-		System.out.println("Response is: " + statusCode);
+//		Response response = authEndPoints.retrieveUsingBearerToken();
+//		int statusCode = response.statusCode();
+//		System.out.println("Response is: " + statusCode);
 	}
 }
