@@ -60,6 +60,7 @@ public class CreatePetDetails {
 		response.then().log().all();
 		getPetId = response.jsonPath().get("id");
 		System.out.println("ID is: " + getPetId);
+		
 	}
 	
 	//@Test(priority = 3)
