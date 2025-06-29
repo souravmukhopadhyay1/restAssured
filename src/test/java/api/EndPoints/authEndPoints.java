@@ -32,19 +32,19 @@ public class authEndPoints {
 		return response;
 	}
 	
-//	public static Response retrieveUsingBearerToken() {
-//		//String bearer_token = "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";
-//		
-//		Response response = given()
-//								.header("authorization", "bearer " + bearer_token)
-//							.when()
-//								.get("https://api.github.com/user")
-//							.then()
-//								.statusCode(200)
-//								.log().all()
-//								.extract().response();
-//								;
-//								return response;
-//	}
+	public static Response retrieveUsingBearerToken() {
+		//String bearer_token = "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";
+		
+		Response response = given()
+								//.header("authorization", "bearer " + bearer_token)
+							.when()
+								.get("https://api.github.com/user")
+							.then()
+								.statusCode(200)
+								.log().all()
+								.extract().response();
+								;
+								return response;
+	}
 
 }
